@@ -1,0 +1,20 @@
+REM open a link to a video of cuteness
+REM TheMany thank you
+
+DELAY 1000
+WINDOWS GUI
+DELAY 1000
+STRING terminal
+DELAY 200
+ENTER
+DELAY 300
+STRING open https://www.youtube.com/watch?v=x6FcnvHrKpo & disown
+DELAY 300
+ENTER
+DELAY 5000
+SPACE
+DELAY 200
+STRING f
+DELAY 500
+STRING k
+DELAY 500

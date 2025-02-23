@@ -1,0 +1,44 @@
+REM Install run and uninstall CCleaner 
+REM Tested Feb 2025 on windows 10
+REM TheMany thank you
+
+REM Alt code input demo
+ALTCHAR 7
+
+
+DELAY 1000
+GUI r
+DELAY 500
+STRING cmd
+DELAY 500
+ENTER
+DELAY 750
+
+STRING winget install --id=Piriform.CCleaner
+DELAY 5000
+ENTER
+DELAY 120000
+
+ALTSTRING cd C:\Program Files\CCleaner
+DELAY 500
+ENTER
+DELAY 500
+STRING CCleaner.exe /AUTO
+DELAY 50
+ENTER
+DELAY 250000
+
+STRING uninst.exe
+DELAY 50
+ENTER
+DELAY 5000
+ENTER
+DELAY 2000
+ENTER
+DELAY 10000
+ENTER
+DELAY 1000
+STRING exit
+DELAY 50
+ENTER
+

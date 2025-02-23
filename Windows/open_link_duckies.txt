@@ -1,0 +1,15 @@
+REM open a link to a video of cuteness
+REM TheMany thank you
+
+GUI r
+DELAY 1000
+STRING cmd
+ENTER
+DELAY 1000
+STRING START https://www.youtube.com/watch?v=x6FcnvHrKpo
+ENTER
+DELAY 10000
+STRING f
+DELAY 1000
+STRING k
+DELAY 500
